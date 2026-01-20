@@ -7,3 +7,10 @@
 - Level 1 ethernaut
 
 Status:success
+
+## Day2 -January 20, 2026
+
+**Completed**
+
+- level 2 ethernaut
+- solidity document review

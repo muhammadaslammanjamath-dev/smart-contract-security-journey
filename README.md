@@ -24,23 +24,23 @@ I'm learning smart contract security and building my audit portfolio in public.
 **Started:** January 18, 2026
 
 **Completed:**
-- [x] Day 1 - Started journey
-- [ ] Ethernaut: 0/29 levels
+- [x] Day 3 - Started journey
+- [ ] Ethernaut: 3/29 levels
 - [ ] Damn Vulnerable DeFi: 0/15 challenges
 - [ ] Contests: 0
 - [ ] Audits: 0
 
 **Current Status:** Building foundation 🔥
 
-## 🗂️ Repository Structure
-```
-📁 ethernaut/          → Ethernaut challenge solutions
-📁 damn-vulnerable-defi/ → DVDeFi challenge solutions  
-📁 contests/           → Code4rena contest findings
-📁 audits/             → Private audit reports
-📁 deep-dives/         → Research on specific topics
-📄 daily-log.md        → Daily progress log
-```
+##  Repository Structure
+
+ ethernaut/          → Ethernaut challenge solutions
+ damn-vulnerable-defi/ → DVDeFi challenge solutions  
+ contests/           → Code4rena contest findings
+ audits/             → Private audit reports
+ deep-dives/         → Research on specific topics
+ daily-log.md        → Daily progress log
+
 
 ## 🎓 Learning Resources
 
@@ -51,8 +51,8 @@ I'm learning smart contract security and building my audit portfolio in public.
 
 ## 📈 Stats
 
-- 🔥 GitHub Streak: 0 days
-- 📝 Challenges Solved: 0
+- 🔥 GitHub Streak: 3 days
+- 📝 Challenges Solved: 3
 - 🔍 Audits Completed: 0
 - 💰 Contest Earnings: $0
 

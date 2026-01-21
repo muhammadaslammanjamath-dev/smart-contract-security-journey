@@ -16,3 +16,12 @@ Status:success
 - solidity document review
 
  Status:sucess
+
+ ## Day 3- January 21 2026
+
+ **Completed**
+
+ - level 3 ethernaut
+ - coin flip level
+  
+  status :success

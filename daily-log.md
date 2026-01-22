@@ -25,3 +25,11 @@ Status:success
  - coin flip level
   
   status :success
+
+## Day 4 - January 21, 2026
+
+Travel day to Dubai.
+
+Did 30 min research on Level 4
+Understand the vulnerability
+Will complete tomorrow.

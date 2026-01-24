@@ -26,7 +26,7 @@ Status:success
   
   status :success
 
-## Day 4 - January 21, 2026
+## Day 4 - January 22,2026
 
 Travel day to Dubai.
 
@@ -34,14 +34,14 @@ Did 30 min research on Level 4
 Understand the vulnerability
 Will complete tomorrow.
 
-## day 5 
+## day 5 - January 23 , 2026
 
 Completed level 4 of Ethernaut and understood,
 how the contract uses tx.origin instead of msg.sender.
 
 It was a small concept, but an important one
 
- ## - January 22, 2026
+ ## - Day 7 january 24 , 2026
 Completed
 • Ethernaut Level 5: Token
 • Learned about integer underflow

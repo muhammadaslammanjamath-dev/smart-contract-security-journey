@@ -40,3 +40,13 @@ Completed level 4 of Ethernaut and understood,
 how the contract uses tx.origin instead of msg.sender.
 
 It was a small concept, but an important one
+
+ ## - January 22, 2026
+Completed
+• Ethernaut Level 5: Token
+• Learned about integer underflow
+• First time exploiting math vulnerability
+*Learned:*
+ How uint wrapping works
+ Why Solidity 0.8.0+ is important
+ SafeMath for older contracts

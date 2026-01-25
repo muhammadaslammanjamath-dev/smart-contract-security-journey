@@ -50,3 +50,7 @@ Completed
  How uint wrapping works
  Why Solidity 0.8.0+ is important
  SafeMath for older contracts
+
+ ## Day 8 January 25,2026
+
+ Today was very minimal work—just looked at Level 6 and read the Solidity docs about delegation.

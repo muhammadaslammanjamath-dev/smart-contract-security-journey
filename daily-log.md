@@ -54,3 +54,31 @@ Completed
  ## Day 8 January 25,2026
 
  Today was very minimal work—just looked at Level 6 and read the Solidity docs about delegation.
+
+ ## Day 6 - January 26, 2026
+
+**Completed:**
+- Ethernaut Level 6: Delegation
+- Learned delegatecall mechanics
+- Understanding proxy patterns now
+
+**Learned:**
+- Delegatecall runs code but changes caller's storage
+- Storage layout must match exactly
+- Never expose delegatecall through fallback
+- Parity Wallet hack was delegatecall-related
+
+**Situation:**
+- 6-day streak alive
+- Building foundation
+
+**Tomorrow:**
+- Level 7: Force
+- Continue job search
+- Keep building
+
+**Status:**  Day 6 complete. 6/29 Ethernaut.
+
+
+
+

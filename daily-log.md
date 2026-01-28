@@ -55,7 +55,7 @@ Completed
 
  Today was very minimal work—just looked at Level 6 and read the Solidity docs about delegation.
 
- ## Day 6 - January 26, 2026
+ ## Day 9 - January 26, 2026
 
 **Completed:**
 - Ethernaut Level 6: Delegation
@@ -77,8 +77,32 @@ Completed
 - Continue job search
 - Keep building
 
-**Status:**  Day 6 complete. 6/29 Ethernaut.
+**Status:**  Day 9 complete. 6/29 Ethernaut.
 
+## Day 10 - January 28, 2026
+
+**Completed:**
+- Ethernaut Level 7: Force
+- Learned about selfdestruct forced transfers
+- First time deploying attack contract via Remix
+
+**Learned:**
+- selfdestruct forces ETH into any address
+- Target contract can't refuse
+- address(this).balance is unreliable for logic
+- Always track balances in state variables
+
+**Situation:**
+- 7-day streak in chaos
+- One week complete
+
+
+**Tomorrow:**
+- Level 8: Vault
+- This one involves reading private storage
+- Will use the storage reading techniques
+
+**Status:** 🔥 Day 7 done. Full week complete. 7/29 Ethernaut
 
 
 

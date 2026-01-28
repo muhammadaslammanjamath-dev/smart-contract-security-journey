@@ -102,7 +102,44 @@ Completed
 - This one involves reading private storage
 - Will use the storage reading techniques
 
-**Status:** 🔥 Day 9 done. Full week complete. 7/29 Ethernaut
+**Status:**  Day 9 done. Full week complete. 7/29 Ethernaut
+
+
+## Day 10  January 28, 2026
+
+Level: 8 – Vault
+
+What I Did
+
+Read the Vault contract
+
+Checked storage layout
+
+Read password from storage
+
+Unlocked the contract
+
+Bug / Concept
+
+Private variables are not secret
+
+On-chain storage is public
+
+How It Was Exploited
+
+Read storage slot 1
+
+Used the value to unlock the vault
+
+What I Learned
+
+Never store secrets on-chain
+
+Private only hides from Solidity
+
+Progress
+
+8 / 29 levels completed
 
 
 

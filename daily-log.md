@@ -41,7 +41,7 @@ how the contract uses tx.origin instead of msg.sender.
 
 It was a small concept, but an important one
 
- ## - Day 7 january 24 , 2026
+ ## - Day 6 january 24 , 2026
 Completed
 • Ethernaut Level 5: Token
 • Learned about integer underflow
@@ -51,11 +51,11 @@ Completed
  Why Solidity 0.8.0+ is important
  SafeMath for older contracts
 
- ## Day 8 January 25,2026
+ ## Day 7 January 25,2026
 
  Today was very minimal work—just looked at Level 6 and read the Solidity docs about delegation.
 
- ## Day 9 - January 26, 2026
+ ## Day 8 - January 26, 2026
 
 **Completed:**
 - Ethernaut Level 6: Delegation
@@ -77,9 +77,9 @@ Completed
 - Continue job search
 - Keep building
 
-**Status:**  Day 9 complete. 6/29 Ethernaut.
+**Status:**  Day 8 complete. 6/29 Ethernaut.
 
-## Day 10 - January 28, 2026
+## Day 9 - January 28, 2026
 
 **Completed:**
 - Ethernaut Level 7: Force
@@ -93,8 +93,8 @@ Completed
 - Always track balances in state variables
 
 **Situation:**
-- 7-day streak in chaos
-- One week complete
+- 9-day streak in chaos
+
 
 
 **Tomorrow:**
@@ -102,7 +102,7 @@ Completed
 - This one involves reading private storage
 - Will use the storage reading techniques
 
-**Status:** 🔥 Day 7 done. Full week complete. 7/29 Ethernaut
+**Status:** 🔥 Day 9 done. Full week complete. 7/29 Ethernaut
 
 
 

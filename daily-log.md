@@ -79,7 +79,7 @@ Completed
 
 **Status:**  Day 8 complete. 6/29 Ethernaut.
 
-## Day 9 - January 28, 2026
+## Day 9 - January 27, 2026
 
 **Completed:**
 - Ethernaut Level 7: Force
@@ -140,6 +140,40 @@ Private only hides from Solidity
 Progress
 
 8 / 29 levels completed
+
+## Day 9 - January 29, 2026
+
+**Completed:**
+- Ethernaut Level 9: King
+- DoS (Denial of Service) attack
+- Learned withdrawal pattern
+
+**Learned:**
+- DoS via failed ETH transfers
+- Contracts can reject ETH (no receive/fallback)
+- Push vs Pull payment patterns
+- External calls can always fail
+- Withdrawal pattern is best practice
+
+**Attack:**
+- Created contract without receive()
+- Became king
+- Anyone trying to reclaim → transfer fails → reverts
+- Permanent king (DoS)
+
+**Situation:**
+- 9-day streak strong
+- Week 1+ complete
+- Pattern library growing
+
+**Tomorrow:**
+- Level 10: Re-entrancy (THE classic attack)
+- Most famous vulnerability in Ethereum
+
+**Status:** Day 9 complete. 9/29 Ethernaut. DoS attacks understood. Moving to reentrancy (the big one).
+
+
+
 
 
 

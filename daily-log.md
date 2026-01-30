@@ -172,6 +172,26 @@ Progress
 
 **Status:** Day 9 complete. 9/29 Ethernaut. DoS attacks understood. Moving to reentrancy (the big one).
 
+## Day 10 - January 30, 2026
+
+**Level:** Re-entrancy
+
+**Attack:** Reentrancy - withdraw multiple times before balance updates
+
+**How it works:** 
+- Withdraw sends money first
+- My contract receives it
+- My contract calls withdraw again
+- Balance not updated yet
+- Get money again
+- Repeat
+
+**Real hack:** The DAO (2016) - $60M
+
+**Fix:** Update balance BEFORE sending money (CEI pattern)
+
+**Status:** 10/29
+
 
 
 

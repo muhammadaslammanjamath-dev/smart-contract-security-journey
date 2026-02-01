@@ -141,7 +141,7 @@ Progress
 
 8 / 29 levels completed
 
-## Day 9 - January 29, 2026
+## Day 11 - January 29, 2026
 
 **Completed:**
 - Ethernaut Level 9: King
@@ -172,7 +172,7 @@ Progress
 
 **Status:** Day 9 complete. 9/29 Ethernaut. DoS attacks understood. Moving to reentrancy (the big one).
 
-## Day 10 - January 30, 2026
+## Day 12 - January 30, 2026
 
 **Level:** Re-entrancy
 
@@ -191,6 +191,23 @@ Progress
 **Fix:** Update balance BEFORE sending money (CEI pattern)
 
 **Status:** 10/29
+
+## Day 13
+
+**What I did:** Tricked elevator
+
+**How:** Made light switch that flips each time elevator asks
+
+**Result:** Elevator gets different answers, sets top = true
+
+**Lesson:** Can lie by flipping switch
+
+11/29
+
+## Day 14 
+**what I did :** just have a look at ethernault level 12
+
+
 
 
 

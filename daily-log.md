@@ -207,6 +207,19 @@ Progress
 ## Day 14 
 **what I did :** just have a look at ethernault level 12
 
+## Day 15
+
+**Level:** Privacy
+
+**Attack:** Read private array from storage slot 5
+
+**Storage packing:** Multiple small variables can share one slot
+
+**Learned:** 
+- How to calculate storage slots with packing
+- bytes32 → bytes16 conversion
+- Fixed arrays take consecutive slots
+
 
 
 

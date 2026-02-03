@@ -220,6 +220,15 @@ Progress
 - bytes32 → bytes16 conversion
 - Fixed arrays take consecutive slots
 
+## Day 16 
+# Level 13: Gatekeeper One
+
+Date: February 3, 2026
+
+## What I Learned
+
+Three gates: contract caller, exact gas, complex key.
+
 
 
 

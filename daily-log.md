@@ -229,6 +229,9 @@ Date: February 3, 2026
 
 Three gates: contract caller, exact gas, complex key.
 
+## Day 17 
+just have a look at level 14
+ethernuat gatekeeper two
 
 
 

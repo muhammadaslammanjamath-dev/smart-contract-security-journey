@@ -233,6 +233,18 @@ Three gates: contract caller, exact gas, complex key.
 just have a look at level 14
 ethernuat gatekeeper two
 
+## Day 18 - February 5, 2026
+
+**Level:** Gatekeeper Two
+
+**Attack:** Constructor timing + XOR
+
+**Key lesson:** Constructor = code size 0
+
+14/29. 48% complete.
+
+
+
 
 
 

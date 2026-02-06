@@ -242,6 +242,19 @@ ethernuat gatekeeper two
 **Key lesson:** Constructor = code size 0
 
 14/29. 48% complete.
+**Level:** Naught Coin
+
+**Attack:** Bypass transfer lock using transferFrom
+
+**ERC20 learned:**
+- transfer() vs transferFrom()
+- approve() mechanism
+- allowances
+- Self-approval trick
+
+**Key lesson:** Lock ALL methods, not just one
+
+15/29. Over halfway!
 
 
 

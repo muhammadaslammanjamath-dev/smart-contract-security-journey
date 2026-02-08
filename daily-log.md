@@ -233,7 +233,7 @@ Three gates: contract caller, exact gas, complex key.
 just have a look at level 14
 ethernuat gatekeeper two
 
-## Day 18 - February 5, 2026
+## Day 18 -
 
 **Level:** Gatekeeper Two
 
@@ -256,7 +256,27 @@ ethernuat gatekeeper two
 
 15/29. Over halfway!
 
-## Day 19 february 6 2026
+## Day 19 
+## Day 16 - February 5, 2026
+
+**Level:** Preservation
+
+**Attack:** Storage collision via delegatecall
+
+**Two-step exploit:**
+1. Replace library with malicious contract
+2. Call again to overwrite owner
+
+**Key lesson:** Storage layout MUST match for delegatecall
+
+**Learned:**
+- Storage collision
+- Two-step attacks
+- Layout importance
+- Delegatecall dangers
+
+16/29
+
 
 
 

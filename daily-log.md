@@ -79,7 +79,7 @@ Completed
 
 **Status:**  Day 8 complete. 6/29 Ethernaut.
 
-## Day 9 - January 27, 2026
+## Day 9 -
 
 **Completed:**
 - Ethernaut Level 7: Force
@@ -105,7 +105,7 @@ Completed
 **Status:**  Day 9 done. Full week complete. 7/29 Ethernaut
 
 
-## Day 10  January 28, 2026
+## Day 10 
 
 Level: 8 – Vault
 
@@ -141,7 +141,7 @@ Progress
 
 8 / 29 levels completed
 
-## Day 11 - January 29, 2026
+## Day 11- 
 
 **Completed:**
 - Ethernaut Level 9: King
@@ -172,7 +172,7 @@ Progress
 
 **Status:** Day 9 complete. 9/29 Ethernaut. DoS attacks understood. Moving to reentrancy (the big one).
 
-## Day 12 - January 30, 2026
+## Day 12 
 
 **Level:** Re-entrancy
 
@@ -257,7 +257,6 @@ ethernuat gatekeeper two
 15/29. Over halfway!
 
 ## Day 19 
-## Day 16 - February 5, 2026
 
 **Level:** Preservation
 

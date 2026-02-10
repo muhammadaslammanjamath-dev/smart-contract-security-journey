@@ -276,6 +276,24 @@ ethernuat gatekeeper two
 
 16/29
 
+## Day 17 - February 6, 2026
+
+**Level:** Recovery
+
+**Attack:** Find "lost" contract via Etherscan, call unprotected selfdestruct
+
+**What I learned:**
+- Contract addresses are deterministic
+- Can calculate from deployer + nonce
+- Etherscan shows internal transactions
+- selfdestruct needs access control
+
+**Breakthrough:** Can read code logic now! Don't always see vulnerability yet, but that's normal for Day 17.
+
+17/29. 59% complete.
+
+
+
 
 
 

@@ -276,7 +276,7 @@ ethernuat gatekeeper two
 
 16/29
 
-## Day 17 - February 6, 2026
+## Day 17 
 
 **Level:** Recovery
 

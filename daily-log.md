@@ -290,7 +290,26 @@ ethernuat gatekeeper two
 
 **Breakthrough:** Can read code logic now! Don't always see vulnerability yet, but that's normal for Day 17.
 
-17/29. 59% complete.
+17/29. 
+
+
+## 📅 Day 18
+
+### 🎯 Goal
+Deploy a contract that returns `42`.
+
+### 🧠 What I Learned
+- EVM cannot return from the stack.
+- RETURN reads from memory.
+- uint256 must return 32 bytes.
+- 42 in hex = `0x2a`.
+
+### ⚙️ What I Did
+- Stored `0x2a` at memory position `0x00`
+- Returned 32 bytes from memory
+- Deployed raw bytecode
+
+
 
 
 

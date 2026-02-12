@@ -308,6 +308,20 @@ Deploy a contract that returns `42`.
 - Stored `0x2a` at memory position `0x00`
 - Returned 32 bytes from memory
 - Deployed raw bytecode
+- 
+## Day 19
+
+**Level:** Alien Codex
+
+**Attack:** Array underflow + storage collision
+
+**What I learned:**
+- Array underflow (length-- when 0 = 2^256-1)
+- Storage math (keccak256 + wraparound)
+- Solidity version matters
+- 0.8.0+ prevents this
+
+**Key lesson:** Old Solidity = dangerous. Use latest version.
 
 
 

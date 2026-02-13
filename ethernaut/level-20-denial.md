@@ -1,6 +1,6 @@
 # Level 20: Denial
 
-Date: [Today]
+
 
 ## What I Learned
 

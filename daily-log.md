@@ -323,6 +323,19 @@ Deploy a contract that returns `42`.
 
 **Key lesson:** Old Solidity = dangerous. Use latest version.
 
+## Day 19 - [Date]
+
+**Level:** 20 - Denial (Skipped 19 - too advanced)
+
+**Attack:** DoS via gas exhaustion
+
+**What I learned:**
+- Infinite loops consume all gas
+- External calls need gas limits
+- fallback() can be weaponized
+- DoS doesn't steal, just blocks
+
+
 
 
 

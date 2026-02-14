@@ -334,6 +334,22 @@ Deploy a contract that returns `42`.
 - External calls need gas limits
 - fallback() can be weaponized
 - DoS doesn't steal, just blocks
+- ## Day 26 - [Date]
+
+**Level:** 21 - Shop
+
+**Attack:** View function returning different values
+
+**What I learned:**
+- View functions can read state
+- State changes between calls
+- Can exploit this for different returns
+- Always cache external function results
+
+**Key lesson:** Don't trust external view functions to return same value on multiple calls.
+
+21/29. 72% complete.
+Day 26: Shop (Level 21) - View function state dependence exploit
 
 
 

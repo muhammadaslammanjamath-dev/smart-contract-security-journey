@@ -1,0 +1,57 @@
+# Level 22: Dex
+
+Date: [Today]
+
+## Visual Summary
+
+DEX with flawed pricing allows draining via repeated swaps:
+
+Swap 1: 10 T1 → 10 T2 (DEX: 110 T1, 90 T2)
+Swap 2: 20 T2 → 24 T1 (DEX: 86 T1, 110 T2)
+Swap 3: 24 T1 → 30 T2 (DEX: 110 T1, 80 T2)
+Swap 4: 30 T2 → 41 T1 (DEX: 69 T1, 110 T2)
+Swap 5: 41 T1 → 65 T2 (DEX: 110 T1, 45 T2)
+Swap 6: 45 T2 → 110 T1 (DEX: 0 T1, 90 T2) 
+
+## The Bug
+
+Price formula: (input × to_reserve) / from_reserve
+
+Problems:
+- No slippage protection
+- Rounding down compounds
+- Price manipulable via trading
+- No external oracle
+
+## Core Pattern
+
+PATTERN 1: State Inconsistency
+Variation: Price manipulation
+
+## How I Did It
+
+6 alternating swaps, exploiting:
+1. Reserve imbalance creates price skew
+2. Integer rounding favors trader
+3. No limits on price impact
+4. Compounding effect drains pool
+
+## The Fix
+
+✓ Constant product formula (x×y=k)
+✓ Slippage protection (minAmountOut)
+✓ External price oracle validation
+✓ Trading fees
+✓ Price impact limits
+
+## Key Lesson
+
+DEX pricing must:
+- Use proper AMM formulas
+- Have slippage protection
+- Validate against oracles
+- Limit price impact per trade
+
+22/29 done
+
+

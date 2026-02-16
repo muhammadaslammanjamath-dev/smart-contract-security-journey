@@ -334,7 +334,7 @@ Deploy a contract that returns `42`.
 - External calls need gas limits
 - fallback() can be weaponized
 - DoS doesn't steal, just blocks
-- ## Day 26 - [Date]
+- ## Day 26
 
 **Level:** 21 - Shop
 

@@ -352,6 +352,24 @@ Deploy a contract that returns `42`.
 Day 26: Shop (Level 21) - View function state dependence exploit
 
 
+**Level:** 22 - Dex
+
+**Attack:** Price manipulation via repeated swaps
+
+**What I learned:**
+- AMM pricing vulnerabilities
+- How reserve imbalance creates arbitrage
+- Integer rounding exploitation
+- Why slippage protection matters
+
+**Visual thinking:**
+Drew swap sequence showing token balances changing
+
+**Key lesson:** DEX prices must be protected from manipulation
+
+22/29. 76%. 27-day streak unbroken.
+
+
 
 
 

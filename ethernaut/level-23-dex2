@@ -1,1 +1,41 @@
+# Level 23: Dex Two
+
+Date: [Today]
+
+## Visual Summary
+
+FakeToken → DEX → Real Token1/Token2
+
+Deploy fake → Send to DEX → Use to drain real tokens
+
+
+## The Bug
+
+Missing token validation in swap function.
+
+DEX accepts ANY ERC20 token.
+
+Fake token with controlled supply = control price formula.
+
+## Attack
+
+1. Deploy FakeToken (1000 supply)
+2. Send 1 FakeToken to DEX
+3. Swap 1 Fake → 100 Token1 (drained!)
+4. Swap 2 Fake → 100 Token2 (drained!)
+
+## Core Pattern
+
+PATTERN 2: Access Control Bypass
+Missing input validation
+Any token accepted instead of whitelisted only
+
+## Key Lesson
+
+Always validate token inputs in DeFi.
+Whitelist accepted tokens.
+Never trust external ERC20s blindly.
+
+23/29 done. 79% complete.
+
 

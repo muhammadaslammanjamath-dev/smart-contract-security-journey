@@ -369,6 +369,19 @@ Drew swap sequence showing token balances changing
 
 22/29. 76%. 27-day streak unbroken.
 
+Level: 24 - Puzzle WalletAttack: Storage collision + multicall bypassLearning:
+
+Most complex Ethernaut level
+Proxy storage collision
+Nested multicall vulnerability
+Balance inflation attack
+Multi-step exploit chains
+Breakthrough: Storage collision deep understanding
+
+Visual diagrams created
+Delegatecall mechanics clear
+Proxy patterns understoo
+
 
 
 

@@ -381,6 +381,19 @@ Breakthrough: Storage collision deep understanding
 Visual diagrams created
 Delegatecall mechanics clear
 Proxy patterns understoo
+## Level: 25 - MotorbikeAttack: UUPS proxy + uninitialized implementation + selfdestruct
+
+UUPS = implementation has upgrade logic
+Proxy delegates to initialize Engine
+But Engine's OWN storage uninitialized!
+Call Engine directly (not through proxy)
+Initialize Engine yourself
+Become upgrader
+Deploy bomb (selfdestruct)
+Upgrade to bomb
+Trigger selfdestruct
+Engine destroyed → Proxy broken
+Patterns: Access Control + Logic
 
 
 

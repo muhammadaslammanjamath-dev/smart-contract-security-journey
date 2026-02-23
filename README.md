@@ -51,8 +51,8 @@ I'm learning smart contract security and building my audit portfolio in public.
 
 ## 📈 Stats
 
-- 🔥 GitHub Streak: 21 days
-- 📝 Challenges Solved: 17
+- 🔥 GitHub Streak: 34 days
+- 📝 Challenges Solved: 26
 - 🔍 Audits Completed: 0
 - 💰 Contest Earnings: $0
 

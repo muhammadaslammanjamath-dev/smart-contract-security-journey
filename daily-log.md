@@ -395,6 +395,36 @@ Trigger selfdestruct
 Engine destroyed → Proxy broken
 Patterns: Access Control + Logic
 
+solved the Double Entry Point level.
+The challenge focused on detecting a hidden delegateTransfer() backdoor in a token system.
+
+Key learning points:
+
+Understood how delegate calls can bypass expected logic
+
+Learned how calldata encoding works
+
+Used inline assembly to extract parameters from raw calldata
+
+Implemented a Forta Detection Bot to prevent vault draining
+
+The solution involved:
+
+Monitoring handleTransaction()
+
+Extracting origSender from calldata using offset 0xa8
+
+Raising an alert when the CryptoVault initiated the malicious call
+
+This level improved my understanding of:
+
+Delegate calls
+
+Proxy attack patterns
+
+On-chain monitoring systems
+
+
 
 
 

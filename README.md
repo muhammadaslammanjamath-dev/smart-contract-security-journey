@@ -24,8 +24,8 @@ I'm learning smart contract security and building my audit portfolio in public.
 **Started:** January 18, 2026
 
 **Completed:**
-- [x] Day 33- Started journey
-- [ ] Ethernaut: 25/29 levels
+- [x] Day 38- Started journey
+- [ ] Ethernaut: 27/29 levels
 - [ ] Damn Vulnerable DeFi: 0/15 challenges
 - [ ] Contests: 0
 - [ ] Audits: 0
@@ -51,8 +51,8 @@ I'm learning smart contract security and building my audit portfolio in public.
 
 ## 📈 Stats
 
-- 🔥 GitHub Streak: 34 days
-- 📝 Challenges Solved: 26
+- 🔥 GitHub Streak: 38 days
+- 📝 Challenges Solved: 27
 - 🔍 Audits Completed: 0
 - 💰 Contest Earnings: $0
 
